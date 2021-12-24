@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,600;1,200;1,400&display=swap');
+
+body {
+  font-family: 'Source Code Pro', monospace;
+  background-image: url("https://static-cse.canva.com/blob/194901/Rainbow-Gradient-Pink-and-Purple-Zoom-Virtual-Background.png");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 100px 0;
+}
+
+h3 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.container {
+  width: 800px;
+  min-height: 800px;
+  border: 10px solid #fff;
+  margin: 100px auto;
+  background: #fff
+}
+
+.header {
+  display: flex;
+  height: 150px;
+}
+
+.title-block {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 100%;
+  font-size: 30px;
+  background: url("https://codenamecrud.ru/assets/home-head-background-4ae5c72295122e64cda7ab6cbafa2732a22abf743b76d27bb5790d226cccca0d.jpg") no-repeat center center / cover;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.title-block::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.5;
+}
+
+.title {
+  position: relative;
+  z-index: 1;
+}
+
+.userpic {
+  display: flex;
+  width: 20%;
+  height: 100%;
+  background: url("https://lh3.googleusercontent.com/a-/AOh14Giojc6ycHAwhuCWi1Vt1c06D0K2Sbpv6XWRjxSimQ=s288-p-rw-no") no-repeat center center / cover;
+}
+
+.nav ul {
+  display: flex;
+  background: rgb(230, 230, 230);
+  margin: 10px 0;
+}
+
+.nav a {
+  display: flex;
+  padding: 20px;
+  text-decoration: none;
+  color: #404040;
+  font-weight: bold;
+  border-right: 1px solid #d1d1d1;
+  transition: background .3s ease;
+}
+
+.nav li a:hover {
+  background: rgb(195, 195, 195);
+}
+
+.content-wrapper {
+  display: flex;
+}
+
+.content {
+  width: 75%;
+  padding: 20px;
+}
+
+.content p {
+  line-height: 25px;
+}
+
+.sidebar {
+  width: 25%;
+  padding: 20px;
+}
+
+.sidebar summary {
+  transform: translateX(10px);
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.sidebar li {
+  margin: 10px 0;
+  text-decoration: none;
+  color: #404040;
+  transition: transform .5s ease;
+  cursor: pointer;
+}
+
+.sidebar li:hover {
+  transform: translateX(10px);
+}
+
+.change-lang {
+  padding: 15px;
+  text-decoration: none;
+  color: #404040;
+  font-weight: bold;
+  border-right: 1px solid #d1d1d1;
+  margin-left: auto;
+}
+
+.skills {
+  width: 75%;
+  padding: 20px;
+}
+
+.skills-walp {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../assets/img/sk1.jpg");
+  background-repeat: no-repeat;
+  width: 110%;
+  padding: 1%;
+  margin: 0;
+}
+
+.skills p {
+  font:12pt bold Verdana,Tahoma;
+  text-align:center;
+  margin-top: 35px;
+  margin-left: -310px;
+  font-weight: bold;
+}
+
+.skills p {
+  transform: translateY(103px);
+}
+
+.skills-comm {
+  font:12pt bold Verdana,Tahoma;
+  text-align:center;
+  margin-bottom: 70px;
+  margin-left: 500px;
+  font-weight: bold;
+  line-height: 50px;
+}
+
+.skills li {
+  transform: translateY(-135px);
+}
+
+.contact {
+  position: relative;
+  min-height: 100vh;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url("../assets/img/contact.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contact .content h2 {
+  font-size: 36px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.contact .content p {
+  font-weight: 300;
+  color: #fff;
+}
+
+.contact .contactInfo {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container .contactInfo .box {
+  position: relative;
+  padding: 20px 0;
+  display: flex;
+}
+
+.container .contactInfo .box .icon {
+  min-width: 60px;
+  height: 60px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 22px;
+}
+
+.container .contactInfo .box .text {
+  display: flex;
+  margin-left: 20px;
+  font-size: 16px;
+  color: #fff;
+  flex-direction: column;
+  font-weight: 300;
+}
+
+.container .contactInfo .box .text h3 {
+  font-weight: 500;
+  color: #00bcd4;
+}
+
+.contactForm {
+  width: 40%;
+  padding: 40px;
+  background: #fff;
+}
+
+.contactForm h2 {
+  font-size: 30px;
+  color: #333;
+  font-weight: 500;
+}
+
+.contactForm .button {
+  position:relative;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.contactForm .button input,
+.contactForm .button textarea {
+  width: 100%;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid #333;
+  outline: none;
+  resize: none;
+}
+
+.contactForm .button span {
+  position: absolute;
+  left: 0;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  pointer-events: none;
+  transition: .5s;
+  color: #666;
+}
+
+.contactForm .button input:focus ~ span,
+.contactForm .button input:valid ~ span,
+.contactForm .button textarea:focus ~ span,
+.contactForm .button textarea:valid ~ span {
+  color: #e91e63;
+  font-size: 12px;
+  transform: translateY(-20px);
+}
+
+.contactForm .button input[type="sumbit"] {
+  width: 100px;
+  background: #00bcd4;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
+}
+
+
+
+
+.w3-container {
+  outline: 1px solid red;
+  color: red;
+}
